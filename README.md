@@ -1,7 +1,7 @@
 JEECG 微云快速开发平台
 ===============
 
-当前最新版本： 3.7.6（发布日期：20180607）
+当前最新版本： 3.8（发布日期：20181024）
 
 JEECG微服务架构： [jeecg-p3 1.0版](https://gitee.com/jeecg/jeecg-p3)
 
@@ -80,7 +80,7 @@ JEECG 功能特点
 *   <b>技术点二十五：</b>支持二级管理员，权限细化管理</br>
 *   <b>技术点二十六：</b>代码生成器支持resutful接口生成</br>
 
-* 	JEECG V3.7.6, 经过了专业压力测试,性能测试，保证后台数据的准确性和页面访问速度</br>
+* 	JEECG V3.7.8, 经过了专业压力测试,性能测试，保证后台数据的准确性和页面访问速度</br>
 * 	支持多种浏览器: IE, 火狐, Google 等</br>
 * 	支持数据库: Mysql,Oracle,Postgre,SqlServer等</br>
 * 	基础权限: 用户，角色，菜单权限，按钮权限，数据权限</br>
@@ -93,22 +93,27 @@ JEECG 功能特点
 技术文档
 -----------------------------------
 * [在线演示](http://demo.jeecg.org)
-* [JEECG 入门开发环境搭建](http://jeecg3.mydoc.io/?t=278859)
+* [JEECG 入门开发环境搭建](https://blog.csdn.net/zhangdaiscott/article/details/50915206)
+* [JEECG 在线开发文档](http://jeecg3.mydoc.io)
 * [JEECG 常见问题贴](http://www.jeecg.org/forum.php?mod=viewthread&tid=1830&extra=page%3D1)
-* [JEECG 开发手册Wiki](http://jeecg3.mydoc.io)
+* [JEECG 本地maven仓库下载](https://gitee.com/jeecg/jeecg-local-maven)
 * [JEECG 在线视频教程](https://edu.csdn.net/lecturer/929)
 * [非Maven版本下载](https://github.com/zhangdaiscott/jeecg-nomaven)
 * [JEECG 版本日志](http://www.jeecg.org/forum.php?mod=viewthread&tid=365&extra=page%3D1)
 
+工程说明
+-----------------------------------
+* 关于项目插件打包使用说明：
+一些不常变动的插件，例如My97DatePicker，lhgDialog等组件，为提高项目加载效率，打包成jar项目引用加载，如需要更改相关插件源码，可下载工程[https://gitee.com/jeecg/jeecg-common-plugin-ui](https://gitee.com/jeecg/jeecg-common-plugin-ui)引入
     
 技术交流
 -----------------------------------
-* 	QQ交流群： ⑥190866569、其他群(全满)</br>
+* 	QQ交流群： ⑦286263896、其他群(全满)</br>
 * 	官方论坛： [http://www.jeecg.org](http://www.jeecg.org)
 * 	官方博客： [http://blog.csdn.net/zhangdaiscott](http://blog.csdn.net/zhangdaiscott)
 * 	关注官方微信公众号，获取更多资讯
-     
-![github](http://img.blog.csdn.net/20180309123201691 "jeecg")
+
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09172938_ltsb.jpg "在这里输入图片标题")
 
 
 社区荣誉
@@ -138,55 +143,65 @@ JEECG 功能特点
 
 系统演示
 -----------------------------------
-###  [1].多套首页风格，支持自定义（Bootstrap风格|云桌面风格|经典风格|Shortcut风格等）
-![github](http://img.blog.csdn.net/20180123155805360?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "jeecg")
-![github](http://img.blog.csdn.net/20180123155931983?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "jeecg")
-![github](http://img.blog.csdn.net/20160428121122932?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20150607214324659?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20150607214353113?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20180124192859781?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "jeecg")
-![github](http://img.blog.csdn.net/20180123160223677?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "jeecg")
-![github](http://img.blog.csdn.net/20180123160244931?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "jeecg")
+###  [1].多套首页风格，支持自定义（H+风格|FineUI风格|ACE风格|Shortcut风格/云桌面等）
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09163742_IbMJ.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164411_zSuo.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164423_JfhR.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164434_NSLt.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164152_hxHU.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164204_uVWu.jpg "在这里输入图片标题")
 
-###  [2].表单自定义设计效果
-![github](http://www.jeecg.org/data/attachment/forum/201512/17/175056vgzo2j2thph29jdp.jpg "jeecg")
-![github](http://www.jeecg.org/data/attachment/forum/201512/17/175135xq9fwiun3pi6i4e6.jpg "jeecg")
-![github](http://www.jeecg.org/data/attachment/forum/201512/17/175152r6eg2f15g58jzzej.png "jeecg")
-![github](http://www.jeecg.org/data/attachment/forum/201512/17/175103v1r87337prnfr1du.jpg "jeecg")
+###  [2].表单设计能力（online表单开发、表单设计器、word布局、积木表单）
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164800_npNS.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164811_4UmX.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09164822_SE7Z.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09165024_90bw.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09165445_QkbR.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09165756_D2m3.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09165958_syDn.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19165540_CizC.jpg "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170233_i84Q.png "在这里输入图片标题")
 
-###  [3].报表演示
-![github](http://img.blog.csdn.net/20150607222027195?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20150607214724128?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20150607221941932?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20150607214807402?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
+###  [3].流程组件演示
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171414_X1ee.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171521_bghO.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171532_NoB0.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171539_gh87.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171656_QTea.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171705_CTug.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171845_83W0.png "在这里输入图片标题")
 
-###  [4].移动报表演示
-![github](http://img.blog.csdn.net/20160304140805046?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160304140809176?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160304140812389?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160304140820202?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160304140823843?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
+###  [4].报表演示（在线配置报表）
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170858_40eu.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170906_l8g0.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170916_KkLG.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170924_hDPz.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170932_HABN.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170941_McYh.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09171047_38JE.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201807/09170949_FWks.png "在这里输入图片标题")
 
-###  [5].流程组件演示
-![github](http://www.jeecg.org/data/attachment/forum/201303/02/123311mf9fa22tv69b228f.jpg "jeecg")
-![github](http://www.jeecg.org/data/attachment/forum/201303/02/123412x003euegeg7nb68z.jpg "jeecg")
-![github](http://www.jeecg.org/data/attachment/forum/201303/02/124748gyhrgvr45vshyc82.jpg "jeecg")
-![github](http://www.jeecg.org/data/attachment/forum/201303/02/123428ubcjjnuwjbkjrnrw.jpg "jeecg")
-![github](http://www.jeecg.org/data/attachment/forum/201303/02/124749up2j5id7gj9kppp8.jpg "jeecg")
+###  [5].移动报表演示
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19165909_OXfn.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19165929_OnoB.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19165943_eyQF.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19165955_tJkX.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170011_9CWF.png "在这里输入图片标题")
+
 
 ###  [6].移动OA演示
-![github](http://img.blog.csdn.net/20160303175110494?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160303175124104?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160303175134698?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160303175138713?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20160303175149042?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19173027_byRC.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19173036_C5Kv.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170252_9gZf.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170305_ud5Y.png "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170337_0myK.png "在这里输入图片标题")
 
 ###  [6].移动APP
-![github](http://img.blog.csdn.net/20170727143703234?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20170727143710317?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20170727143717031?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20170727143722008?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
-![github](http://img.blog.csdn.net/20170727143727421?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdkYWlzY290dA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center "jeecg")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170420_v4qK.jpg "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170430_kqK2.jpg "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170449_W72k.jpg "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170458_qIv2.jpg "在这里输入图片标题")
+![输入图片说明](https://static.oschina.net/uploads/img/201804/19170508_q2XJ.jpg "在这里输入图片标题")
 
 
 代码示例
