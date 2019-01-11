@@ -13,6 +13,7 @@
 			<t:dgCol title="更新日期" field="updateDate" hidden="true"></t:dgCol>
 			<t:dgCol title="任务ID" field="task.id" align="center" frozenColumn="true"></t:dgCol>
 			<t:dgCol title="任务名称" field="task.name" frozenColumn="true"></t:dgCol>
+			<t:dgCol title="任务类型" field="task.typeId" query="true" queryMode="single" dictionary="t_task_type,id,code"></t:dgCol>
 			<t:dgCol title="运行时间" field="runTime" formatter="yyyy-MM-dd hh:mm:ss" query="true" queryMode="group"></t:dgCol>
 			<t:dgCol title="任务状态" field="taskState" query="true" queryMode="single" dictionary="task_state" align="center" extend="{style:'width:80px'}"></t:dgCol>
 			<t:dgCol title="优先级" field="priority" align="center"></t:dgCol>
