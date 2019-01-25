@@ -55,7 +55,7 @@
 						defaultVal="${taskPage.taskCycle}" extendJson="{ignore:'checked'}" title="任务周期"></t:dictSelect>
 					<c:if test="${taskPage.taskCycle == 'week' }">
 					<%
-						String[] weekday = { ",", "日", "一", "二", "三", "四", "五", "六" };
+						String[] weekday = { ",", "一", "二", "三", "四", "五", "六", "日" };
 						pageContext.setAttribute("weekday", weekday);
 					%>
 					<label class="Validform_label">周几: </label>

@@ -23,7 +23,7 @@ function switchCycleValue(val) {
 	if ($.inArray(val, arr) > 0) {
 		$("#priority").focus();
 	} else if(val == "week"){
-		var weekday = [ '', '日', '一', '二', '三', '四', '五', '六' ];
+		var weekday = [ '', '一', '二', '三', '四', '五', '六', '日' ];
 		var html = "<label class='Validform_label'>周几: </label><select id='cycleValue' name='cycleValue'>";
 		for(var i=1;i<=7;i++){
 			html += "<option value='" + i + "'>" + weekday[i] + "</option>";
