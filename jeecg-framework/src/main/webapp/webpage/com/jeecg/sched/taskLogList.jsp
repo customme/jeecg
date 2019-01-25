@@ -3,7 +3,7 @@
 <t:base type="jquery,easyui,tools,DatePicker"></t:base>
 <div class="easyui-layout" fit="true">
 	<div region="center" style="padding: 0px; border: 0px">
-		<t:datagrid name="taskLogList" checkbox="false" pagination="true" fitColumns="true"
+		<t:datagrid name="taskLogList" checkbox="false" pagination="true" pageSize="20" fitColumns="true"
 			actionUrl="taskLogController.do?datagrid" idField="id" fit="true" queryMode="group"
 			extendParams="queryParams:{taskIds:${task.id }}">
 			<t:dgCol title="主键" field="id" hidden="true"></t:dgCol>
